@@ -1,0 +1,1082 @@
+[INFO ] 06-19-2019 00:33:48 pl.edu.mimuw.kk408986.WatchDir <init> - Scanning /home/baka475/Pulpit/FX ...
+[INFO ] 06-19-2019 00:33:48 pl.edu.mimuw.kk408986.WatchDir <init> - Done.
+[INFO ] 06-19-2019 00:34:19 pl.edu.mimuw.kk408986.WatchDir <init> - Scanning /home/baka475/Pulpit/test ...
+[INFO ] 06-19-2019 00:34:19 pl.edu.mimuw.kk408986.WatchDir <init> - Done.
+[INFO ] 06-19-2019 00:34:27 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 00:34:27 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 00:34:29 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 00:34:29 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/kat
+[INFO ] 06-19-2019 00:34:29 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/test/Katalog bez nazwy -> /home/baka475/Pulpit/test/kat
+[INFO ] 06-19-2019 00:34:35 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/kat/CV.odt
+[INFO ] 06-19-2019 00:34:35 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/kat/CV.odt
+[INFO ] 06-19-2019 00:34:36 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/kat/CV.odt
+[INFO ] 06-19-2019 00:34:36 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/kat/test
+[INFO ] 06-19-2019 00:34:36 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/kat/test
+[INFO ] 06-19-2019 00:35:45 pl.edu.mimuw.kk408986.WatchDir <init> - Scanning /home/baka475/Pulpit/test ...
+[INFO ] 06-19-2019 00:35:45 pl.edu.mimuw.kk408986.WatchDir <init> - Done.
+[INFO ] 06-19-2019 00:36:20 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/kat/test
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/kat/.goutputstream-BOVC3Z
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/kat/.goutputstream-BOVC3Z
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/kat/.goutputstream-BOVC3Z
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/kat/CV.odt
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/kat/CV.odt
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/kat/test
+[INFO ] 06-19-2019 00:36:42 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/kat/test
+[INFO ] 06-19-2019 00:53:38 pl.edu.mimuw.kk408986.WatchDir <init> - Scanning /home/baka475/Pulpit/test ...
+[INFO ] 06-19-2019 00:53:38 pl.edu.mimuw.kk408986.WatchDir <init> - Done.
+[INFO ] 06-19-2019 01:07:49 pl.edu.mimuw.kk408986.WatchDir <init> - Scanning /home/baka475/Pulpit/test ...
+[INFO ] 06-19-2019 01:07:49 pl.edu.mimuw.kk408986.WatchDir <init> - Done.
+[INFO ] 06-19-2019 01:24:58 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/kat
+[INFO ] 06-19-2019 02:12:07 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 02:12:07 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 02:12:09 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 02:12:09 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/tt
+[INFO ] 06-19-2019 02:12:09 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/test/Katalog bez nazwy -> /home/baka475/Pulpit/test/tt
+[WARN ] 06-19-2019 11:05:02 org.apache.pdfbox.pdmodel.font.PDType1Font <init> - Using fallback font NimbusRomNo9L-Regu for Palatino-Roman
+[WARN ] 06-19-2019 11:05:02 org.apache.pdfbox.pdmodel.font.PDType1Font <init> - Using fallback font NimbusRomNo9L-Regu for Palatino-Roman
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CA (82) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D3 (111) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for DE (122) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for DB (119) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CX (105) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for EH (161) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CP (97) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D2 (110) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CT (101) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CS (100) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BD (49) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CF (87) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D4 (112) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D3 (111) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D2 (110) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CX (105) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for F7 (187) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D7 (115) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for DE (122) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for DD (121) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D1 (109) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D6 (114) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for DB (119) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for EH (161) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CP (97) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D9 (117) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CZ (107) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for F5 (185) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for EQ (170) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CS (100) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for B8 (44) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for AM (22) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for B9 (45) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for B4 (40) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D8 (116) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CV (103) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for GR (243) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for B5 (41) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CY (106) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CT (101) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for EX (177) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for AL (21) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BA (46) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for C6 (78) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CW (104) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CQ (98) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for C8 (80) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CB (83) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BD (49) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BE (50) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BF (51) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BG (52) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BH (53) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D0 (108) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BM (58) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BI (54) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BJ (55) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for C2 (74) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbigg (18) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbigg (19) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BK (56) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for ER (171) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for EI (162) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BL (57) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BV (67) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BC (48) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBig (16) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBig (17) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for C7 (79) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for C3 (75) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D1 (109) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D8 (116) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D6 (114) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for AS (28) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BE (50) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CI (90) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CU (102) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BU (66) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for C1 (73) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CA (82) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for negationslash (54) in font UUYIHI+CMSY10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D4 (112) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for D3 (111) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CW (104) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for AX (33) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BT (65) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketleftBig (104) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketrightBig (105) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for EB (155) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BF (51) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BY (70) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for AY (34) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BZ (71) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CD (85) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for BN (59) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalbigg (114) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbig (0) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbig (1) in font MGEHZB+CMEX10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for CC (84) in font null
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vextendsingle (1) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalBig (2) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalbigg (3) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBigg (4) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBigg (5) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbigg (6) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:03 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbigg (7) in font ZUDDSM+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif-Italic' for 'Georgia-Italic'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+3404 (3404) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif' for 'CourierNewPSMT'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+2009 (2009) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+3397 (3397) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+2870 (2870) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+2869 (2869) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1853 (1853) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+4666 (4666) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+4667 (4667) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+3398 (3398) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1831 (1831) in font HOJKBM+Cambria
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for a0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for negationslash (54) in font ASBNAV+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for a1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for xlessequal (172) in font ASBNAV+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for braceleftBigg (40) in font YGHSWH+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for xgreaterequal (173) in font ASBNAV+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbig (0) in font YGHSWH+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbig (1) in font YGHSWH+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbig (0) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbig (1) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for lstroke (179) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vector (126) in font QHJRPM+CMMI10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalbig (112) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketleftbigg (20) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbigg (18) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbigg (19) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketrightbigg (21) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vextendsingle (12) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for negationslash (54) in font JMDAQW+CMSY10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBig (16) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBig (17) in font QOQQWE+CMEX10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif' for 'CourierNewPSMT'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for lessmuch (28) in font PEIDXI+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vector (126) in font PHQXXJ+PLMathItalic10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for summationdisplay (88) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for prime (48) in font PBSWUC+PLMathSymbols8-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketleftbigg (20) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketrightbigg (21) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalBigg (115) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vextendsingle (12) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBig (16) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBig (17) in font FIAIVQ+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for xlessequal (172) in font PEIDXI+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for xgreaterequal (173) in font PEIDXI+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif' for 'CourierNewPSMT'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif' for 'Georgia'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif' for 'CourierNewPSMT'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSerif' for 'Georgia'
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbigg (1) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbigg (2) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vextendsingle (3) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbig (8) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbig (9) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketleftbigg (10) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketrightbigg (11) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalBigg (12) in font PGUGBG+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vector (7) in font YBWBJD+cmmi10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 80 (80) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 81 (81) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 82 (82) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 83 (83) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 84 (84) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 85 (85) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 86 (86) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 87 (87) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 88 (88) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 89 (89) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 90 (90) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 91 (91) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 92 (92) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 93 (93) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 94 (94) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 95 (95) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 96 (96) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 97 (97) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 98 (98) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 99 (99) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 100 (100) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 101 (101) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 102 (102) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 103 (103) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 104 (104) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 105 (105) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 80 (80) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 81 (81) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 82 (82) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 83 (83) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 84 (84) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 85 (85) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 86 (86) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 87 (87) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 88 (88) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 89 (89) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 90 (90) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 91 (91) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 92 (92) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 93 (93) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 94 (94) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 95 (95) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 96 (96) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 97 (97) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 80 (80) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 81 (81) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 82 (82) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 83 (83) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 84 (84) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 85 (85) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 86 (86) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 87 (87) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 88 (88) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 89 (89) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 90 (90) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 91 (91) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 92 (92) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 93 (93) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 94 (94) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 95 (95) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 96 (96) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 97 (97) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 98 (98) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 99 (99) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 100 (100) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftbigg (18) in font MIKLIT+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightbigg (19) in font MIKLIT+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBig (16) in font MIKLIT+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBig (17) in font MIKLIT+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBigg (32) in font MIKLIT+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBigg (33) in font MIKLIT+PLMathExtension10-Regular
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for xgreaterequal (173) in font MYRGML+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for xlessequal (172) in font MYRGML+PLMathSymbols10-Italic
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 80 (80) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 81 (81) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 82 (82) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 83 (83) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 84 (84) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 85 (85) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 86 (86) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 87 (87) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 88 (88) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 89 (89) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 90 (90) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 91 (91) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 92 (92) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 93 (93) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 80 (80) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 81 (81) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 82 (82) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 83 (83) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 84 (84) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 85 (85) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 86 (86) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 87 (87) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 88 (88) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 89 (89) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 90 (90) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 91 (91) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 92 (92) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 93 (93) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 94 (94) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 95 (95) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 96 (96) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 97 (97) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 98 (98) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 99 (99) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 100 (100) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 101 (101) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 102 (102) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 103 (103) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 104 (104) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 105 (105) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 80 (80) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 81 (81) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 82 (82) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 83 (83) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 84 (84) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 85 (85) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 86 (86) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 87 (87) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 88 (88) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 89 (89) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 90 (90) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 91 (91) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 92 (92) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 93 (93) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 94 (94) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 95 (95) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 96 (96) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 97 (97) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 98 (98) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 99 (99) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 100 (100) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 101 (101) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 102 (102) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 103 (103) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 104 (104) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 105 (105) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 106 (106) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 107 (107) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 108 (108) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 109 (109) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 110 (110) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 111 (111) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 112 (112) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 113 (113) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 114 (114) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 115 (115) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 116 (116) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 117 (117) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 118 (118) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 119 (119) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 120 (120) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 121 (121) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 122 (122) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 123 (123) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 124 (124) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 0 (0) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1 (1) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2 (2) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3 (3) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4 (4) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 5 (5) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 6 (6) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 7 (7) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 8 (8) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 9 (9) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 10 (10) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 11 (11) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 12 (12) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 13 (13) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 14 (14) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 15 (15) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 16 (16) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 17 (17) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 18 (18) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 19 (19) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 20 (20) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 21 (21) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 22 (22) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 23 (23) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 24 (24) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 25 (25) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 26 (26) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 27 (27) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 28 (28) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 29 (29) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 30 (30) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 31 (31) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 32 (32) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 33 (33) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 34 (34) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 35 (35) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 36 (36) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 37 (37) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 38 (38) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 39 (39) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 40 (40) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 41 (41) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 42 (42) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 43 (43) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 44 (44) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 45 (45) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 46 (46) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 47 (47) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 48 (48) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 49 (49) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 50 (50) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 51 (51) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 52 (52) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 53 (53) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 54 (54) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 55 (55) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 56 (56) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 57 (57) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 58 (58) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 59 (59) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 60 (60) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 61 (61) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 62 (62) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 63 (63) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 64 (64) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 65 (65) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 66 (66) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 67 (67) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 68 (68) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 69 (69) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 70 (70) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 71 (71) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 72 (72) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 73 (73) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 74 (74) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 75 (75) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 76 (76) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 77 (77) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 78 (78) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 79 (79) in font null
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalBig (1) in font TAXITF+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vector (17) in font TBNRRF+cmmi12
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for vector (14) in font CFXBXL+cmmi12
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalbig (1) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalbigg (2) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for radicalBig (3) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBigg (4) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBigg (5) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketleftbigg (6) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenleftBig (7) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for parenrightBig (8) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:04 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for bracketrightbigg (9) in font WIFBIC+cmex10
+[WARN ] 06-19-2019 11:05:05 org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init> - Using fallback font 'LiberationSans' for 'TimesNewRomanPSMT'
+[INFO ] 06-19-2019 11:58:16 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 11:58:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 11:58:18 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 11:58:18 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/testy
+[INFO ] 06-19-2019 11:58:18 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy -> /home/baka475/Pulpit/Kacper/rejs/testy
+[INFO ] 06-19-2019 12:00:28 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/testy
+[INFO ] 06-19-2019 12:01:21 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:01:21 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:01:22 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:01:22 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/test
+[INFO ] 06-19-2019 12:01:22 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy -> /home/baka475/Pulpit/Kacper/rejs/test
+[INFO ] 06-19-2019 12:02:13 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/test
+[INFO ] 06-19-2019 12:12:18 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 12:12:18 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 12:12:20 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 12:12:20 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/test\
+[INFO ] 06-19-2019 12:12:20 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/test/Katalog bez nazwy -> /home/baka475/Pulpit/test/test\
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 12:13:43 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 12:13:59 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:13:59 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:14:01 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:14:01 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/ee
+[INFO ] 06-19-2019 12:14:01 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy -> /home/baka475/Pulpit/Kacper/rejs/ee
+[INFO ] 06-19-2019 12:14:07 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/test\
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/ee
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 12:26:29 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 12:27:07 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/ttt
+[INFO ] 06-19-2019 12:27:57 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 12:27:57 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 12:27:58 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 12:27:58 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/ggg
+[INFO ] 06-19-2019 12:27:58 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/test/Katalog bez nazwy -> /home/baka475/Pulpit/test/ggg
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/.idea/workspace.xml___jb_tmp___
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/.idea/workspace.xml___jb_tmp___
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/.idea/workspace.xml
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/.idea/workspace.xml___jb_old___
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/.idea/workspace.xml___jb_tmp___
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/.idea/workspace.xml
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/.idea/workspace.xml
+[INFO ] 06-19-2019 12:45:08 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/.idea/workspace.xml___jb_old___
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 12:45:28 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 12:45:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 12:46:13 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/src
+[INFO ] 06-19-2019 12:46:19 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:46:19 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:46:21 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 12:46:21 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/test
+[INFO ] 06-19-2019 12:46:21 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy -> /home/baka475/Pulpit/Kacper/rejs/test
+[INFO ] 06-19-2019 13:05:30 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/ggg
+[INFO ] 06-19-2019 13:08:31 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 13:08:31 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 13:08:33 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 13:08:33 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/ggg
+[INFO ] 06-19-2019 13:08:33 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy -> /home/baka475/Pulpit/Kacper/rejs/ggg
+[INFO ] 06-19-2019 13:08:52 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/ggg/Dokument bez nazwy
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/ggg
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 13:37:49 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/ggg
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 13:38:16 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/ggg
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety (w)
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety POWRÓT
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Bilety/bilety TAM
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Kacper
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Janek
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Rozliczenia/Paweł
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Umowa
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Nr telefonu
+[INFO ] 06-19-2019 13:39:54 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/Kacper/rejs/Broszurka
+[INFO ] 06-19-2019 13:40:02 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 13:40:02 pl.edu.mimuw.kk408986.WatchDir register - register: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 13:40:04 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-19-2019 13:40:04 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/fafa
+[INFO ] 06-19-2019 13:40:04 pl.edu.mimuw.kk408986.WatchDir register - update: /home/baka475/Pulpit/test/Katalog bez nazwy -> /home/baka475/Pulpit/test/fafa
+[INFO ] 06-19-2019 13:40:12 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/ggg/Dokument bez nazwy
+[INFO ] 06-19-2019 14:00:58 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/fafa
+[INFO ] 06-19-2019 14:02:11 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 14:02:12 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/Katalog bez nazwy
+[INFO ] 06-19-2019 14:02:12 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_CREATE: /home/baka475/Pulpit/Kacper/rejs/faga
+[INFO ] 06-19-2019 14:02:16 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/Kacper/rejs/faga
+[INFO ] 06-19-2019 14:02:21 pl.edu.mimuw.kk408986.WatchDir processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/test
