@@ -178,11 +178,11 @@ public class DirectoriesWatcher {
     }
 
     private static void add (IndexWriter writer, FileIndexer indexer, Path path) {
-        if (!directoryIsIndexed(path)) {
+        if (!directoryIsIndexed(path) && Files.isReadable(path)) {
             indexer.indexAllFiles(writer, path, false);
             addDirectoryToIndexedDirectories(writer, path);
         } else {
-            System.out.println("Directory is already indexed.");
+            System.out.println((Files.isReadable(path)) ? "Directory already indexed." : "Directory does not exist.");
         }
     }
 

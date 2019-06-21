@@ -243,3 +243,94 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapD
 [INFO ] 06-21-2019 18:45:00 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/src
 [INFO ] 06-21-2019 18:45:00 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test/src added.
 [INFO ] 06-21-2019 18:47:29 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/src
+[INFO ] 06-21-2019 18:55:28 pl.edu.mimuw.kk408986.DirectoriesWatcher purge - Index has been purged.
+[WARN ] 06-21-2019 18:55:51 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:55:53 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:56:10 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/Kacper/rejs added.
+[INFO ] 06-21-2019 18:56:59 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/Kacper/Korepetycje added.
+[WARN ] 06-21-2019 18:57:54 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for ratinglanguage (1) in font EOAPAN+TT213o00
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+4652 (4652) in font HHDHCF+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1318 (1318) in font HHDHCF+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+4652 (4652) in font LOBBPE+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1318 (1318) in font LOBBPE+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1865 (1865) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1859 (1859) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+2869 (2869) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+2870 (2870) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1874 (1874) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+3493 (3493) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+4652 (4652) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1318 (1318) in font NBBJDB+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+3119 (3119) in font FNCFFE+CambriaMath
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1835 (1835) in font LOBBPE+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1874 (1874) in font IGOOEP+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1318 (1318) in font IGOOEP+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+2868 (2868) in font IGOOEP+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1796 (1796) in font IGOOEP+Cambria
+[WARN ] 06-21-2019 18:57:55 org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode - No Unicode mapping for CID+1785 (1785) in font IGOOEP+Cambria
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4674 (2) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4675 (3) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2869 (4) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2874 (5) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4666 (6) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2878 (7) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2872 (8) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4667 (9) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1863 (10) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3404 (11) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2898 (14) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2923 (15) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1865 (16) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1876 (19) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2009 (23) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1874 (26) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2868 (27) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2929 (30) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2202 (31) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2778 (32) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2780 (33) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1819 (34) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2235 (36) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2783 (37) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2777 (38) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1822 (39) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2782 (40) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1813 (41) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1835 (43) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2870 (47) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3040 (49) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3046 (50) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1860 (51) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1858 (52) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2925 (53) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2912 (54) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2928 (55) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2919 (56) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2924 (57) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1831 (58) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3038 (59) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3010 (60) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3104 (61) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3118 (62) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1844 (63) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3397 (64) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1870 (65) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1857 (66) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4672 (67) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2921 (68) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 4673 (69) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1832 (70) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3034 (71) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2871 (72) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1856 (74) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2158 (75) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2200 (76) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 2165 (77) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 1828 (78) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3091 (79) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3116 (80) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3293 (81) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3095 (82) in font RVTHJU+CambriaMath
+[WARN ] 06-21-2019 18:57:56 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for 3045 (83) in font RVTHJU+CambriaMath
+[INFO ] 06-21-2019 18:57:57 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/Korepetycje added.
+[INFO ] 06-21-2019 18:58:54 pl.edu.mimuw.kk408986.DirectoriesWatcher remove - Directory /home/baka475/Pulpit/test removed.
