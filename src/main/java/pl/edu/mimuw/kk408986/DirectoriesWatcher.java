@@ -8,6 +8,9 @@ import java.io.*;
 import java.util.*;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.miscellaneous.PerFieldAnalyzerWrapper;
+import org.apache.lucene.analysis.pl.PolishAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -17,6 +20,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ucar.ma2.Index;
 
 public class DirectoriesWatcher {
 
@@ -30,12 +34,12 @@ public class DirectoriesWatcher {
         return (WatchEvent<T>) event;
     }
 
-    private void register(Path dir) throws IOException {
+    private void register (Path dir) throws IOException {
         WatchKey key = dir.register(watcher, ENTRY_CREATE, ENTRY_DELETE, ENTRY_MODIFY);
         keys.put(key, dir);
     }
 
-    private void registerAll(final Path start) throws IOException {
+    private void registerAll (final Path start) throws IOException {
         // register directory and sub-directories
         Files.walkFileTree(start, new SimpleFileVisitor<Path>() {
             @Override
@@ -46,13 +50,13 @@ public class DirectoriesWatcher {
         });
     }
 
-    private DirectoriesWatcher() throws IOException {
+    private DirectoriesWatcher () throws IOException {
         this.watcher = FileSystems.getDefault()
                 .newWatchService();
         this.keys = new HashMap<>();
     }
 
-    private void processEvents(Directory indexDir, FileIndexer indexer) {
+    private void processEvents (FileIndexer indexer, Directory indexDir) {
         for (;;) {
             WatchKey key;
             try {
@@ -67,32 +71,34 @@ public class DirectoriesWatcher {
                 continue;
             }
 
-            for (WatchEvent<?> event : key.pollEvents()) {
-                WatchEvent.Kind<?> kind = event.kind();
-
-                WatchEvent<Path> ev = cast(event);
-                Path name = ev.context();
-                Path child = dir.resolve(name);
-
-                if (kind == ENTRY_DELETE || kind == ENTRY_MODIFY) {
-                    indexer.deleteDocs(child, indexDir, kind == ENTRY_MODIFY);
+            try (IndexWriter writer = createIndexWriter(indexDir)) {
+                if (writer == null) {
+                    logger.error("Writer could not be created.");
+                    continue;
                 }
-                if (kind == ENTRY_CREATE || kind == ENTRY_MODIFY) {
-                    indexer.indexAllFiles(child, indexDir, kind == ENTRY_MODIFY);
-                }
+                for (WatchEvent<?> event : key.pollEvents()) {
+                    WatchEvent.Kind<?> kind = event.kind();
+                    WatchEvent<Path> ev = cast(event);
+                    Path name = ev.context();
+                    Path child = dir.resolve(name);
 
-                logger.info("{}: {}", event.kind().name(), child);
+                    if (kind == ENTRY_DELETE || kind == ENTRY_MODIFY) {
+                        indexer.deleteDocs(writer, child, kind == ENTRY_MODIFY);
+                    }
+                    if (kind == ENTRY_CREATE || kind == ENTRY_MODIFY) {
+                        indexer.indexAllFiles(writer, child, kind == ENTRY_MODIFY);
+                    }
+                    logger.info("{}: {}", event.kind().name(), child);
 
-                if (kind == ENTRY_CREATE) {
-                    try {
+                    if (kind == ENTRY_CREATE) {
                         if (Files.isDirectory(child, NOFOLLOW_LINKS)) {
-                            addDirectoryToIndexedDirectories(child, indexDir);
+                            addDirectoryToIndexedDirectories(writer, child);
                             registerAll(child);
                         }
-                    } catch (IOException e) {
-                        logger.error("Low-level I/O error: ", e);
                     }
                 }
+            } catch (IOException e) {
+                logger.error("Low-level I/O error: ", e);
             }
 
             boolean valid = key.reset();
@@ -106,7 +112,7 @@ public class DirectoriesWatcher {
         }
     }
 
-    private static void removeFromIndex(Path path, Directory indexDir, String index, FileIndexer indexer) {
+    private static void remove (IndexWriter writer, Path path, String index, FileIndexer indexer) {
         ArrayList<String> dirs = indexedDirectories(index);
         boolean exists = false;
 
@@ -116,7 +122,7 @@ public class DirectoriesWatcher {
         }
 
         if (exists) {
-            indexer.deleteDocs(path, indexDir, false);
+            indexer.deleteDocs(writer, path, false);
             logger.info("Directory " + path + " removed.");
             return;
         }
@@ -124,26 +130,18 @@ public class DirectoriesWatcher {
         logger.info("Given directory is not indexed.");
     }
 
-    private static void reindex(Directory indexDir, String index, FileIndexer indexer) {
+    private static void reindex (IndexWriter writer, String index, FileIndexer indexer) {
         try {
             ArrayList<String> indexedDirs = indexedDirectories(index);
-
-            IndexWriter writer = createIndexWriter(indexDir, new StandardAnalyzer());
-            if (writer != null) {
-                writer.deleteAll();
-                writer.close();
-            } else {
-                //if writer is null error was described to logger.
-                return;
-            }
+            writer.deleteAll();
 
             if (indexedDirs.isEmpty()) {
                 logger.info("No directories to reindex.");
                 return;
             }
             for (String dir : indexedDirs) {
-                indexer.indexAllFiles(Paths.get(dir), indexDir, false);
-                addDirectoryToIndexedDirectories(Paths.get(dir), indexDir);
+                indexer.indexAllFiles(writer, Paths.get(dir), false);
+                addDirectoryToIndexedDirectories(writer, Paths.get(dir));
             }
             logger.info("All directories reindexed.");
         } catch (IOException e) {
@@ -151,7 +149,7 @@ public class DirectoriesWatcher {
         }
     }
 
-    private static void listIndex(String index) {
+    private static void list (String index) {
         ArrayList<String> indexedDirectories = indexedDirectories(index);
 
         if (indexedDirectories.isEmpty()) {
@@ -166,41 +164,41 @@ public class DirectoriesWatcher {
         }
     }
 
-    private static void purgeIndex (Directory indexDir) {
+    private static void purge (IndexWriter writer) {
         try {
-            IndexWriter writer = createIndexWriter(indexDir, new StandardAnalyzer());
             if (writer == null) {
                 logger.error("Index not purged. IndexWriter creating problem.");
                 return;
             }
             writer.deleteAll();
-            writer.close();
             logger.info("Index has been purged.");
         } catch (IOException e) {
             logger.error("Low-level I/O error: ", e);
         }
     }
 
-    private static void addDirectoryToIndexedDirectories(Path dir, Directory indexDir) {
-        try {
-            IndexWriter writer = createIndexWriter(indexDir, new StandardAnalyzer());
+    private static void add (IndexWriter writer, FileIndexer indexer, Path path) {
+        if (!directoryIsIndexed(path)) {
+            indexer.indexAllFiles(writer, path, false);
+            addDirectoryToIndexedDirectories(writer, path);
+        } else {
+            System.out.println("Directory is already indexed.");
+        }
+    }
 
-            if (writer != null) {           //if writer is null Exception was described on logger
-                Document d = new Document();
-                d.add(new StringField("directory", dir.toString(), Field.Store.YES));
-                writer.addDocument(d);
-                writer.close();
-                logger.info("Directory " + dir + " added.");
-            }
+    private static void addDirectoryToIndexedDirectories (IndexWriter writer, Path dir) {
+        try {
+            Document d = new Document();
+            d.add(new StringField("directory", dir.toString(), Field.Store.YES));
+            writer.addDocument(d);
+            logger.info("Directory " + dir + " added.");
         } catch (IOException e) {
             logger.error("Low-level I/O error: ", e);
         }
     }
 
-    private static ArrayList<String> indexedDirectories(String index) {
-
+    private static ArrayList<String> indexedDirectories (String index) {
         ArrayList<String> indexedDirs = new ArrayList<>();
-
         try {
             IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
 
@@ -213,19 +211,24 @@ public class DirectoriesWatcher {
                     try {
                         indexedDirs.add(directory);
                     } catch (NullPointerException ignore) {
-                        //directory is not null
+                        logger.error("ArrayList couldn't be created.");
                     }
                 }
             }
             reader.close();
         }
         catch (IOException e) {
-           //
+           logger.error("Low-level I/O error: ", e);
         }
         return indexedDirs;
     }
 
-    private static void addIndexedDirsToWatcher(String index, DirectoriesWatcher watcher) {
+    private static boolean directoryIsIndexed (Path dir) {
+        String index = System.getProperty("user.home") + "/.index";
+        return indexedDirectories(index).contains(dir.toString());
+    }
+
+    private static void addIndexedDirsToWatcher (String index, DirectoriesWatcher watcher) {
         try {
             ArrayList<String> tabOfDirs = indexedDirectories(index);
             for (String pathString : tabOfDirs) {
@@ -236,8 +239,13 @@ public class DirectoriesWatcher {
         }
     }
 
-    private static IndexWriter createIndexWriter (Directory dir, Analyzer a) {
+    private static IndexWriter createIndexWriter (Directory dir) {
         try {
+            HashMap<String, Analyzer> analyzerMap = new HashMap<>();
+            analyzerMap.put("contentspl", new PolishAnalyzer());
+            analyzerMap.put("contentsen", new EnglishAnalyzer());
+
+            Analyzer a = new PerFieldAnalyzerWrapper(new StandardAnalyzer(), analyzerMap);
             IndexWriterConfig iwc = new IndexWriterConfig(a);
             iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
             return new IndexWriter(dir, iwc);
@@ -247,40 +255,46 @@ public class DirectoriesWatcher {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         try {
             Directory indexDirectory = FSDirectory.open(Paths.get(System.getProperty("user.home") + "/.index"));
             String index = System.getProperty("user.home") + "/.index";
 
             FileIndexer indexer = new FileIndexer(logger);
-
             DirectoriesWatcher watcher = new DirectoriesWatcher();
+            IndexWriter writer = createIndexWriter(indexDirectory);
 
+            if (writer == null) {
+                logger.error("IndexWriter not created due to previous error.");
+                return;
+            }
             if (args.length > 0) {
                 switch (args[0]) {
                     case "--purge":
-                        purgeIndex(indexDirectory);
+                        purge(writer);
                         break;
                     case "--add":
-                        indexer.indexAllFiles(Paths.get(args[1]), indexDirectory, false);
-                        addDirectoryToIndexedDirectories(Paths.get(args[1]), indexDirectory);
+                        add(writer, indexer, Paths.get(args[1]));
                         break;
                     case "--reindex":
-                        reindex(indexDirectory, index, indexer);
+                        reindex(writer, index, indexer);
                         break;
                     case "--list":
-                        listIndex(index);
+                        list(index);
                         break;
                     case "--rm":
-                        removeFromIndex(Paths.get(args[1]), indexDirectory, index, indexer);
+                        remove(writer, Paths.get(args[1]), index, indexer);
                         break;
                 }
             }
+            writer.close();
+
             if (args.length == 0) {
                 logger.info("Indexer has started observation.");
                 addIndexedDirsToWatcher(index, watcher);
-                watcher.processEvents(indexDirectory, indexer);
+                watcher.processEvents(indexer, indexDirectory);
             }
+
         } catch (IOException e) {
             logger.error("Directory does not exists or WatchService problem: ", e);
         }

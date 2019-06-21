@@ -150,3 +150,96 @@ java.io.FileNotFoundException: /home/Pulpit/baka475/test (Nie ma takiego pliku a
 [WARN ] 06-21-2019 13:37:05 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
 [INFO ] 06-21-2019 13:37:06 pl.edu.mimuw.kk408986.WatchDir addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
 [INFO ] 06-21-2019 13:37:06 pl.edu.mimuw.kk408986.WatchDir reindex - All directories reindexed.
+[INFO ] 06-21-2019 16:57:37 pl.edu.mimuw.kk408986.DirectoriesWatcher main - Indexer has started observation.
+[WARN ] 06-21-2019 16:58:07 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 16:58:09 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[WARN ] 06-21-2019 17:00:46 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 17:00:47 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:03:21 pl.edu.mimuw.kk408986.DirectoriesWatcher purge - Index has been purged.
+[ERROR] 06-21-2019 18:03:39 pl.edu.mimuw.kk408986.DirectoriesWatcher indexedDirectories - Low-level I/O error: 
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@/home/baka475/Pulpit/Lucyna/null./index lockFactory=org.apache.lucene.store.NativeFSLockFactory@14a2f921: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:675)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:84)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:76)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:64)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.indexedDirectories(DirectoriesWatcher.java:208)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.directoryIsIndexed(DirectoriesWatcher.java:233)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.add(DirectoriesWatcher.java:186)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.main(DirectoriesWatcher.java:282)
+[WARN ] 06-21-2019 18:03:41 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:03:42 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[ERROR] 06-21-2019 18:04:07 pl.edu.mimuw.kk408986.DirectoriesWatcher indexedDirectories - Low-level I/O error: 
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@/home/baka475/Pulpit/Lucyna/null./index lockFactory=org.apache.lucene.store.NativeFSLockFactory@48524010: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:675)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:84)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:76)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:64)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.indexedDirectories(DirectoriesWatcher.java:208)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.directoryIsIndexed(DirectoriesWatcher.java:233)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.add(DirectoriesWatcher.java:186)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.main(DirectoriesWatcher.java:282)
+[WARN ] 06-21-2019 18:04:08 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:04:10 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[ERROR] 06-21-2019 18:04:16 pl.edu.mimuw.kk408986.DirectoriesWatcher indexedDirectories - Low-level I/O error: 
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@/home/baka475/Pulpit/Lucyna/null./index lockFactory=org.apache.lucene.store.NativeFSLockFactory@48524010: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:675)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:84)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:76)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:64)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.indexedDirectories(DirectoriesWatcher.java:208)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.directoryIsIndexed(DirectoriesWatcher.java:233)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.add(DirectoriesWatcher.java:186)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.main(DirectoriesWatcher.java:282)
+[WARN ] 06-21-2019 18:04:17 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:04:19 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[ERROR] 06-21-2019 18:04:38 pl.edu.mimuw.kk408986.DirectoriesWatcher indexedDirectories - Low-level I/O error: 
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@/home/baka475/Pulpit/Lucyna/null/.index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1a84f40f: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:675)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:84)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:76)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:64)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.indexedDirectories(DirectoriesWatcher.java:208)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.directoryIsIndexed(DirectoriesWatcher.java:233)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.add(DirectoriesWatcher.java:186)
+	at pl.edu.mimuw.kk408986.DirectoriesWatcher.main(DirectoriesWatcher.java:282)
+[WARN ] 06-21-2019 18:04:39 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:04:41 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:07:58 pl.edu.mimuw.kk408986.DirectoriesWatcher purge - Index has been purged.
+[WARN ] 06-21-2019 18:10:00 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:10:01 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:10:57 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/Kacper/rejs added.
+[INFO ] 06-21-2019 18:12:51 pl.edu.mimuw.kk408986.DirectoriesWatcher main - Indexer has started observation.
+[INFO ] 06-21-2019 18:13:11 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/test.iml
+[INFO ] 06-21-2019 18:13:19 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Dokument bez nazwy
+[INFO ] 06-21-2019 18:13:22 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Dokument bez nazwy
+[INFO ] 06-21-2019 18:13:22 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/marta
+[INFO ] 06-21-2019 18:13:37 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/marta
+[INFO ] 06-21-2019 18:17:25 pl.edu.mimuw.kk408986.DirectoriesWatcher reindex - No directories to reindex.
+[WARN ] 06-21-2019 18:17:51 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:17:52 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:18:31 pl.edu.mimuw.kk408986.DirectoriesWatcher main - Indexer has started observation.
+[INFO ] 06-21-2019 18:18:49 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/marta
+[INFO ] 06-21-2019 18:29:28 pl.edu.mimuw.kk408986.DirectoriesWatcher purge - Index has been purged.
+[WARN ] 06-21-2019 18:29:49 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:29:50 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:30:03 pl.edu.mimuw.kk408986.DirectoriesWatcher main - Indexer has started observation.
+[INFO ] 06-21-2019 18:30:10 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Dokument bez nazwy
+[INFO ] 06-21-2019 18:30:10 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Dokument bez nazwy
+[INFO ] 06-21-2019 18:30:10 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/marta
+[INFO ] 06-21-2019 18:30:20 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/marta
+[INFO ] 06-21-2019 18:30:46 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/marta
+[INFO ] 06-21-2019 18:31:59 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-21-2019 18:31:59 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test/Katalog bez nazwy added.
+[INFO ] 06-21-2019 18:32:03 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/Katalog bez nazwy
+[INFO ] 06-21-2019 18:32:37 pl.edu.mimuw.kk408986.DirectoriesWatcher main - Indexer has started observation.
+[INFO ] 06-21-2019 18:32:50 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/src
+[INFO ] 06-21-2019 18:32:50 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test/src added.
+[INFO ] 06-21-2019 18:32:51 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_MODIFY: /home/baka475/Pulpit/test/src
+[INFO ] 06-21-2019 18:42:48 pl.edu.mimuw.kk408986.DirectoriesWatcher purge - Index has been purged.
+[WARN ] 06-21-2019 18:43:10 org.apache.pdfbox.pdmodel.font.PDSimpleFont toUnicode - No Unicode mapping for contintegraldisplay (73) in font XNOVLA+LMMathExtension10-Regular
+[INFO ] 06-21-2019 18:43:13 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test added.
+[INFO ] 06-21-2019 18:43:50 pl.edu.mimuw.kk408986.DirectoriesWatcher main - Indexer has started observation.
+[INFO ] 06-21-2019 18:43:58 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/src
+[INFO ] 06-21-2019 18:45:00 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_CREATE: /home/baka475/Pulpit/test/src
+[INFO ] 06-21-2019 18:45:00 pl.edu.mimuw.kk408986.DirectoriesWatcher addDirectoryToIndexedDirectories - Directory /home/baka475/Pulpit/test/src added.
+[INFO ] 06-21-2019 18:47:29 pl.edu.mimuw.kk408986.DirectoriesWatcher processEvents - ENTRY_DELETE: /home/baka475/Pulpit/test/src

@@ -2,7 +2,9 @@ package pl.edu.mimuw.kk408986;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.miscellaneous.PerFieldAnalyzerWrapper;
 import org.apache.lucene.analysis.pl.PolishAnalyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.index.*;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
@@ -23,9 +25,9 @@ import org.jline.utils.AttributedStringBuilder;
 import org.jline.utils.AttributedStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.HashMap;
 
 public class Searcher {
 
@@ -35,67 +37,58 @@ public class Searcher {
     private String color = "off";           // on/off
     private String searchMode = "term";     // term/phrase/fuzzy
 
-    private String bold = "\033[1m";
-    private String reset = "\033[0m";
+    private String bold = "\033[1m";        //ANSI bold code
+    private String reset = "\033[0m";       //ANSI reset code
 
-    private static Logger logger = LoggerFactory.getLogger(WatchDir.class);
-
+    private static Logger logger = LoggerFactory.getLogger(Searcher.class);
 
     public static void main (String[] args) {
-        try {
-            Searcher s = new Searcher();
-            s.openTerminal();
-        } catch (IOException e) {
-            logger.error("Index directory opening error. Check index existance and path: " , e);
-        }
+        Searcher s = new Searcher();
+        s.openTerminal();
     }
 
-    private void openTerminal () throws IOException {
+    private void openTerminal () {
+        try {
+            Directory indexDir = FSDirectory.open(Paths.get(System.getProperty("user.home") + "/.index"));
 
-        Directory indexDir = FSDirectory.open(Paths.get(System.getProperty("user.home") + "/.index"));
+            try (Terminal terminal = TerminalBuilder.builder()
+                    .nativeSignals(true)
+                    .signalHandler(Terminal.SignalHandler.SIG_IGN)
+                    .jna(false)
+                    .jansi(true)
+                    .build()) {
+                LineReader lineReader = LineReaderBuilder.builder()
+                        .terminal(terminal)
+                        .completer(new Completers.FileNameCompleter())
+                        .build();
 
-        try (Terminal terminal = TerminalBuilder.builder()
-                .nativeSignals(true)
-                .signalHandler(Terminal.SignalHandler.SIG_IGN)
-                .jna(false)
-                .jansi(true)
-                .build()) {
-            LineReader lineReader = LineReaderBuilder.builder()
-                    .terminal(terminal)
-                    .completer(new Completers.FileNameCompleter())
-                    .build();
+                while (true) {
+                    String line = null;
+                    try {
+                        line = lineReader.readLine("> ");
 
-            while (true) {
-                String line = null;
-                try {
-                    line = lineReader.readLine("> ");
+                        reactOnCommand(line, terminal, indexDir);
 
-                    reactOnCommand(line, terminal, indexDir);
-
-                } catch (UserInterruptException | EndOfFileException e) {
-                    break;
+                    } catch (UserInterruptException | EndOfFileException e) {
+                        break;
+                    }
                 }
+            } catch (IOException e) {
+                logger.error("An error has occured", e);
             }
         } catch (IOException e) {
-            logger.error("An error has occured", e);
+            logger.error("Low-level I/O error: ", e);
         }
     }
 
-    private void reactOnCommand(String command, Terminal terminal, Directory indexDir) { 
-        try {
+    private void reactOnCommand (String command, Terminal terminal, Directory indexDir) {
             if (command.substring(0, 1).equals("%"))
                 settingsCommand(command);
             else
                 searchCommand(command, terminal, indexDir);
-        } catch (IOException e) {
-            logger.error("Low-level I/O error: ", e);
-        } catch (ParseException e) {
-            logger.error("Parsing error: ", e);
-        }
     }
 
     private void settingsCommand (String command) {
-
         if (command.equals("%term"))
             this.searchMode = "term";
         else if (command.equals("%phrase"))
@@ -117,34 +110,50 @@ public class Searcher {
         }
     }
 
-    private void searchCommand (String command, Terminal terminal, Directory indexDir) throws IOException, ParseException {
+    private void searchCommand (String command, Terminal terminal, Directory indexDir) {
+        try {
+            IndexReader reader = DirectoryReader.open(indexDir);
+            IndexSearcher searcher = new IndexSearcher(reader);
+            Analyzer analyzer = createAnalyzer();
+            QueryParser parser;
+            String field;
 
-        IndexReader reader = DirectoryReader.open(indexDir);
-        IndexSearcher searcher = new IndexSearcher(reader);
-        Analyzer analyzer = getLanguageAnalyzer();
-        QueryParser parser = new QueryParser("contents", analyzer);
-        Query parsed;
+            if (language.equals("pl")) {
+                parser = new QueryParser("contentspl", analyzer);
+                field = "contentspl";
+            } else {
+                parser = new QueryParser("contentsen", analyzer);
+                field = "contentsen";
+            }
 
-        if (searchMode.equals("term")) {
-            TermQuery q = new TermQuery(new Term("contents", command));
-            parsed = parser.parse(q.toString("contents"));
-        } else if (searchMode.equals("phrase")) {
-            String[] wordsTable = command.split(" ");
-            PhraseQuery q = new PhraseQuery("contents", wordsTable);
-            parsed = parser.parse(q.toString("contents"));
-        } else {
-            FuzzyQuery q = new FuzzyQuery(new Term("contents", command));
-            parsed = parser.parse(q.toString("contents"));
+            Query parsed;
+
+            if (searchMode.equals("term")) {
+                TermQuery q = new TermQuery(new Term(field, command));
+                parsed = parser.parse(q.toString(field));
+            } else if (searchMode.equals("phrase")) {
+                String[] wordsTable = command.split(" ");
+                PhraseQuery q = new PhraseQuery(field, wordsTable);
+                parsed = parser.parse(q.toString(field));
+            } else {
+                FuzzyQuery q = new FuzzyQuery(new Term(field, command));
+                parsed = parser.parse(q.toString(field));
+            }
+
+            TopDocs topDocsResult = searcher.search(parsed, limit);
+            String[] results = highlightedSearchResults(topDocsResult, searcher, analyzer, parsed);
+            displayResults(terminal, searcher, topDocsResult.scoreDocs, results, topDocsResult.totalHits.value);
+
+        } catch (IOException e) {
+            logger.error("Low-level I/O error: ", e);
+        } catch (ParseException e) {
+            logger.error("Parsing exception: ", e);
         }
-
-        TopDocs topDocsResult = searcher.search(parsed, limit);
-        String[] results = highlightedSearchResults(topDocsResult, searcher, analyzer, parsed);
-        displayResults(terminal, searcher, topDocsResult.scoreDocs, results, topDocsResult.totalHits.value);
-
     }
 
     private String[] highlightedSearchResults (TopDocs hits, IndexSearcher searcher, Analyzer analyzer, Query query) throws IOException {
-        String red = "\033[31m";
+        String red = "\033[31m";        //ANSI red color code
+        String field = "contentsen";
 
         UnifiedHighlighter highlighter = new UnifiedHighlighter(searcher, analyzer);
         PassageFormatter formatterColor = new DefaultPassageFormatter(red, reset, "...", false);
@@ -155,7 +164,10 @@ public class Searcher {
         else
             highlighter.setFormatter(formatterSimple);
 
-        return highlighter.highlight("contents", query, hits, 5);
+        if (language.equals("pl"))
+            field = "contentspl";
+
+        return highlighter.highlight(field, query, hits, 5);    //number of maxPasses chosen according to ExampleProject, may be freely changed
     }
 
     private void displayResults (Terminal terminal, IndexSearcher searcher, ScoreDoc[] scoreDocResults, String[] results, long hits) throws IOException {
@@ -168,7 +180,7 @@ public class Searcher {
 
         for (int i = 0; i < results.length; i++) {
 
-            String name = bold + searcher.doc(scoreDocResults[i].doc).get("name") + reset + "\n";
+            String name = bold + searcher.doc(scoreDocResults[i].doc).get("path") + reset + "\n";
             terminal.writer()
                     .println(new AttributedStringBuilder()
                             .append(name));
@@ -183,10 +195,12 @@ public class Searcher {
         }
     }
 
-    private Analyzer getLanguageAnalyzer () {
-        if (language.equals("pl"))
-            return new PolishAnalyzer();
-        return new EnglishAnalyzer();
+    private Analyzer createAnalyzer () {
+        HashMap<String, Analyzer> analyzerMap = new HashMap<>();
+        analyzerMap.put("contentspl", new PolishAnalyzer());
+        analyzerMap.put("contentsen", new EnglishAnalyzer());
+
+        return new PerFieldAnalyzerWrapper(new StandardAnalyzer(), analyzerMap);
     }
 
 }
