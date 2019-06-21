@@ -106,6 +106,7 @@ public class FileIndexer {
                     if (!updating)
                         System.out.println("deleting ... " + path);
                 }
+                System.out.println("dir: " + directory);
                 if (directory != null && directory.equals(deletedPath)) {
                     writer.deleteDocuments(new Term("directory", deletedPath));
                 }
