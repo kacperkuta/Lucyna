@@ -1,115 +1,70 @@
 package pl.edu.mimuw.kk408986;
 
-import java.awt.datatransfer.SystemFlavorMap;
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.Date;
 import java.util.List;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.analysis.pl.PolishAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.document.LongPoint;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.*;
-import org.apache.lucene.index.IndexWriterConfig.OpenMode;
-import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.queryparser.classic.QueryParser;
-import org.apache.lucene.search.Query;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.tika.Tika;
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.langdetect.OptimaizeLangDetector;
 import org.apache.tika.language.detect.LanguageResult;
-import ucar.ma2.Index;
+import org.slf4j.Logger;
 
 
 public class FileIndexer {
 
-    public void indexFile (Path file, Directory indexDir) throws IOException, TikaException {
+    private Logger logger;
 
-        String fileConversion = MyDocumentParser.documentContentToString(new File(file.toString()));
-        Document doc = new Document();
-        IndexWriter writer;
-
-        if (langDetector(fileConversion).equals("pl"))
-            writer = createIndexWriter(indexDir, new PolishAnalyzer());
-        else
-            writer = createIndexWriter(indexDir, new EnglishAnalyzer());
-
-        Field pathField = new TextField("path", file.toString(), Field.Store.YES);
-        doc.add(pathField);
-
-        Field nameField = new TextField("name", file.getFileName().toString(), Field.Store.YES);
-        doc.add(nameField);
-
-        doc.add(new TextField("contents", fileConversion, Field.Store.YES));
-
-        if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {
-            System.out.println("adding " + file);
-            writer.addDocument(doc);
-        } else {
-            System.out.println("updating " + file);
-            writer.updateDocument(new Term("path", file.toString()), doc);
-        }
-
-        writer.close();
+    public FileIndexer (Logger logger) {
+        this.logger = logger;
     }
 
-
-    public void indexAllFiles (Path path, Directory indexDir) throws IOException, TikaException {
-        if (Files.isDirectory(path)) {
-            Files.walkFileTree(path, new SimpleFileVisitor<Path>() {
-                @Override
-                public FileVisitResult visitFile (Path file, BasicFileAttributes attrs) throws IOException {
-                    try {
-                        indexFile(file, indexDir);
-                    } catch (IOException | TikaException ignore) {
-                        // don't index files that can't be read or parsed.
-                    }
-                    return FileVisitResult.CONTINUE;
-                }
-            });
-        } else {
-            indexFile(path, indexDir);
-        }
+    private String documentContentToString  (File file) throws IOException, TikaException {
+        Tika tika = new Tika();
+        return tika.parseToString(file);
     }
 
-    public void UpdateFilesUnderDirectory (Path dir, String index, Directory indexDir) throws ParseException, IOException {
-        IndexWriter writer = createIndexWriter(indexDir, new StandardAnalyzer());
-        deleteFiles(writer, dir.toString(), index);
+    private void deleteDocsWithPath(String deletedPath, IndexWriter writer, boolean updating) {
+
         try {
-            indexAllFiles(dir, indexDir);
-        } catch (IOException | TikaException ignore) {
-            // don't index files that can't be read or parsed.
-        }
-    }
+            String index = System.getProperty("user.home") + "/.index";
+            IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
 
-    //Przerobic String dir na Path dir!!!
-    public void deleteFiles (final IndexWriter writer, String dir, String index) throws ParseException, IOException {
+            for (int i = 0; i < reader.maxDoc(); i++) {
 
-        IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
+                Document doc = reader.document(i);
+                String path = doc.get("path");
+                String directory = doc.get("directory");
 
-        for (int i = 0; i < reader.numDocs(); i++) {
-
-            if (reader.document(i).get("path") != null &&
-                    reader.document(i).get("path").substring(0, dir.length()).equals(dir)) {
-
-                writer.deleteDocuments(new Term("path", reader.document(i).get("path")));
-
+                if (path != null && path.indexOf(deletedPath) == 0) {
+                    writer.deleteDocuments(new Term("path", path));
+                    if (!updating)
+                        System.out.println("deleting ... " + path);
+                }
+                if (directory != null && directory.equals(deletedPath)) {
+                    writer.deleteDocuments(new Term("directory", deletedPath));
+                }
             }
+            reader.close();
+        } catch (IOException e) {
+            //
         }
-        reader.close();
     }
 
     private String langDetector (String s) {
@@ -125,5 +80,63 @@ public class FileIndexer {
         IndexWriterConfig iwc = new IndexWriterConfig(a);
         iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
         return new IndexWriter(dir, iwc);
+    }
+
+    private void indexFile (Path file, Directory indexDir, boolean updating) throws IOException, TikaException {
+
+        String fileConversion = documentContentToString(new File(file.toString()));
+        Document doc = new Document();
+        IndexWriter writer;
+
+        if (langDetector(fileConversion).equals("pl"))
+            writer = createIndexWriter(indexDir, new PolishAnalyzer());
+        else
+            writer = createIndexWriter(indexDir, new EnglishAnalyzer());
+
+        doc.add(new StringField("name", file.getFileName().toString(), Field.Store.YES));
+
+        doc.add(new StringField("path", file.toString(), Field.Store.YES));
+
+        doc.add(new TextField("contents", fileConversion, Field.Store.YES));
+
+        if (!updating)
+            System.out.println("adding ... " + file);
+        else
+            System.out.println("updating ... " + file);
+
+        writer.addDocument(doc);
+        writer.close();
+    }
+
+    public void indexAllFiles (Path path, Directory indexDir, boolean updating) {
+        try {
+            if (Files.isDirectory(path)) {
+                Files.walkFileTree(path, new SimpleFileVisitor<Path>() {
+                    @Override
+                    public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
+                        try {
+                            indexFile(file, indexDir, updating);
+                        } catch (IOException | TikaException ignore) {
+                            //don't index files, that can't be read or parsed.
+                        }
+                        return FileVisitResult.CONTINUE;
+                    }
+                });
+            } else {
+                indexFile(path, indexDir, updating);
+            }
+        } catch (TikaException | IOException ignore) {
+            //don't index files, that can't be read or parsed.
+        }
+    }
+
+    public void deleteDocs (Path path, Directory indexDir, boolean updating) {
+        try {
+            IndexWriter writer = createIndexWriter(indexDir, new StandardAnalyzer());
+            deleteDocsWithPath(path.toString(), writer, updating);
+            writer.close();
+        } catch (IOException e) {
+            logger.error("Low-level I/O error: ", e);
+        }
     }
 }
